@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img{
+            float: left;
+        }
+        h1{
+            border-bottom: solid thin #909;
+            color: #909;
+            text-align: right;
+        }
+        fieldset{
+            border: solid #FCC;
+        }
+        input, textarea{
+            border-style: none;
+            background-color: #FCC;
+            width: 500px;
+            
+            margin: 10px 0;
+        }
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        /* seletor de atributo*/
+        input[type="submit"] {
+            width: 100px;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Dados da conta</h1>
+    <img src="form1_back.jpg" alt="">
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <div>
+                <label for="|">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <div>
+                    <label for="">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da Conta:</legend>
+            <div>
+                <label for="">Senha:</label>
+                <input type="text" name="passwd" id="passwd">
+            </div>
+            <div>
+                <label for="">Frase <br>opcional:</label>
+                <textarea name="txtarea" id="txtarea"></textarea>
+            </div>
+        </fieldset>
+    </form>
+
+    <input type="submit" value="enviar">
+</body>
+
+</html>

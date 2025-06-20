@@ -1,0 +1,9 @@
+<a> = anchor (link to another site)
+<ul> = unordered list
+<ol> = ordered list
+<img> = image
+input -> formulario
+<h1,2,3..> = header
+<select>
+<p> = paragraph
+<tag></tag>
